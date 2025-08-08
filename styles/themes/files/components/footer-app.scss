@@ -1,0 +1,33 @@
+// Ensure social media icons are white in dark mode
+.footer-app .about-us .social a {
+  color: #fff !important;
+}
+.footer-app {
+  .abdelrahman {
+    color: $color_b;
+    a {
+      color: $color_a;
+    }
+  }
+
+  .about-us {
+    div {
+      b,
+      p {
+        color: $color_b;
+      }
+    }
+  }
+
+  .list {
+    h3 {
+      color: $color_a;
+    }
+
+    ul {
+      a {
+        color: $color_b;
+      }
+    }
+  }
+}

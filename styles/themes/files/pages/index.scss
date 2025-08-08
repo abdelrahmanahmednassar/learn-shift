@@ -1,0 +1,380 @@
+.index-page {
+  .first-sect {
+    .right {
+      .title {
+        h1 {
+          color: $color_b;
+        }
+
+        .word {
+          color: $color_a;
+        }
+      }
+
+      p {
+        color: $color_b;
+      }
+    }
+
+    .left {
+      .image {
+        .back {
+          background-color: $color_a;
+        }
+      }
+    }
+  }
+
+  .scroll-down {
+    .box {
+      background-color: $color_a;
+
+      &::before {
+        background-color: $color_a;
+      }
+    }
+
+    .line-doted {
+      span {
+        background-color: $color_a;
+      }
+    }
+  }
+  .features {
+    > div {
+      .icon {
+        background-color: $color_a;
+
+        color: $color_white_a;
+
+        &.black {
+          background-color: $color_b;
+        }
+      }
+
+      .text {
+        h1 {
+          &.red {
+            color: $color_a;
+          }
+
+          &.black {
+            color: $color_b;
+          }
+        }
+
+        p {
+          color: $color_b;
+        }
+      }
+
+      .image {
+        .back {
+          background-color: $color_a;
+        }
+      }
+    }
+
+    .security {
+      .ads-image-1 {
+        background-color: $color_dark_a;
+        box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha: 0.04);
+
+        .app-img {
+          background-color: $color_white_d;
+        }
+
+        .text-app {
+          .app-title {
+            background-color: $color_white_d;
+          }
+
+          .app-commint {
+            span {
+              background-color: $color_white_d;
+            }
+          }
+        }
+
+        .btn-download {
+          background-color: $color_white_d;
+
+          i {
+            color: $color_white_e;
+          }
+        }
+
+        .blur-layer {
+          i {
+            color: $color_red_a;
+          }
+        }
+      }
+
+      .ads-image-2 {
+        background-color: $color_dark_a;
+
+        box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha: 0.04);
+
+        .video {
+          background-color: $color_white_d;
+
+          i {
+            color: $color_white_e;
+          }
+        }
+
+        .blur-layer {
+          i {
+            color: $color_red_a;
+          }
+        }
+      }
+    }
+
+    .analytics {
+      .image {
+        .box {
+          background-color: $color_dark_a;
+
+          box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha: 0.04);
+
+          .mark {
+            color: $color_white_a;
+            background-color: $color_black_a;
+          }
+
+          &.excellent {
+            color: #03c988;
+            .mark {
+              background-color: #03c988;
+            }
+          }
+
+          &.very-good {
+            color: #ffb84c;
+            .mark {
+              background-color: #ffb84c;
+            }
+          }
+
+          &.good {
+            color: #ff774c;
+            .mark {
+              background-color: #ff774c;
+            }
+          }
+
+          &.bad {
+            color: #c90303;
+
+            .mark {
+              background-color: #c90303;
+            }
+          }
+
+          &.very-bad {
+            color: #850000;
+
+            .mark {
+              background-color: #850000;
+            }
+          }
+        }
+      }
+    }
+
+    .multi {
+      .image {
+        .box-course {
+          background-color: $color_dark_a;
+
+          box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha: 0.04);
+
+          .background {
+            background-color: $color_a;
+          }
+
+          .text {
+            .name,
+            .date {
+              color: $color_b;
+            }
+
+            .day-left {
+              color: $color_a;
+            }
+
+            .rate {
+              color: $color_a;
+
+              border: 1px solid $color_a;
+            }
+          }
+        }
+      }
+    }
+  }
+  .other-features {
+    .title {
+      color: $color_b;
+
+      &::before {
+        background-color: $color_a;
+      }
+    }
+
+    .image {
+      .box-feat {
+        background-color: $color_dark_a;
+
+        box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha: 0.04);
+
+        .icon {
+          background-color: $color_b;
+
+          color: $color_white_a;
+        }
+
+        p {
+          color: $color_b;
+        }
+      }
+    }
+  }
+
+  .register-now {
+    .body {
+      background-color: $color_white_b;
+
+      .title {
+        color: $color_b;
+      }
+
+      .des {
+        color: $color_b;
+      }
+
+      .email-box {
+        @extend .label-div__inputText-button;
+        label {
+          color: $color_b;
+        }
+      }
+    }
+  }
+
+  .pricing-section {
+    .section-header {
+      .title {
+        color: $color_b;
+
+        &::before {
+          background-color: $color_a;
+        }
+      }
+
+      .subtitle {
+        color: $color_b;
+      }
+    }
+
+    .pricing-cards {
+      .pricing-card {
+        background-color: $color_dark_a;
+        box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha: 0.04);
+
+        &:hover {
+          box-shadow: 0 10px 40px 15px
+            rgba($color: $color_black_a, $alpha: 0.08);
+        }
+
+        &.popular {
+          border-color: $color_a;
+
+          .popular-badge {
+            background-color: $color_a;
+            color: $color_white_a;
+          }
+        }
+
+        .card-header {
+          .package-name {
+            color: $color_b;
+          }
+
+          .package-description {
+            color: $color_b;
+          }
+        }
+
+        .card-features {
+          ul {
+            .feature-item {
+              color: $color_b;
+
+              i {
+                color: $color_a;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .qa-section {
+    .title {
+      color: $color_b;
+
+      &::before {
+        background-color: $color_a;
+      }
+    }
+
+    .qa-container {
+      .qa-item {
+        background-color: $color_dark_a;
+        box-shadow: 0 0 30px 5px rgba($color: $color_black_a, $alpha: 0.04);
+
+        &:hover {
+          box-shadow: 0 5px 40px 10px rgba($color: $color_black_a, $alpha: 0.08);
+        }
+
+        .qa-question {
+          &:hover {
+            background-color: rgba($color: $color_a, $alpha: 0.1);
+          }
+
+          h3 {
+            color: $color_b;
+          }
+
+          .qa-icon {
+            background-color: $color_a;
+
+            i {
+              color: $color_white_a;
+            }
+
+            &.open {
+              background-color: $color_b;
+
+              i {
+                color: $color_white_a;
+              }
+            }
+          }
+        }
+
+        .qa-answer {
+          background-color: rgba($color: $color_a, $alpha: 0.05);
+
+          p {
+            color: $color_b;
+          }
+        }
+      }
+    }
+  }
+}

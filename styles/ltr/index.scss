@@ -1,0 +1,13 @@
+.ltr {
+  direction: ltr;
+  @import "base";
+  @import "pages/index";
+  @import "components/header-app";
+  @import "components/footer-app";
+  @import "components/nav-user";
+  @import "components/loading/full-loading";
+  @import "components/prefs-btns";
+  @import "components/elements/list-items";
+
+  @import "res/pages/index";
+}

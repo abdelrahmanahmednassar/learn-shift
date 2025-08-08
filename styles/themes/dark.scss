@@ -1,0 +1,42 @@
+.dark-theme {
+  // color
+  $color_a: #5D54FF ;
+  $color_b: #ffffff;
+
+  // white color
+  $color_white_a: #0d0d27;
+  $color_white_b: #17173d;
+  $color_white_c: #2c2c4f;
+  $color_white_d: #3b3b69;
+  $color_white_e: #0c0c39;
+
+  // black
+  $color_black_a: #000;
+
+  //red
+  $color_red_a: #f45050;
+
+  $color_a_lite: rgba(
+    $color: $color_a,
+    $alpha: 0.13,
+  );
+
+  //dark
+  $color_dark_a: #1b1c52;
+
+  background-color: $color_white_a;
+  .other-features {
+    color: white;
+  }
+
+  @import "files/base";
+  @import "files/pages/index";
+  @import "files/pages/credits.scss";
+
+  @import "files/components/elements/list-items";
+  @import "files/components/footer-app";
+  @import "files/components/loading/full-loading";
+  @import "files/components/loading/small-loading";
+  @import "files/components/header-app";
+  @import "files/components/nav-user";
+}

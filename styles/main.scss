@@ -1,0 +1,58 @@
+@import "base";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "IBM Plex Sans Arabic";
+}
+
+body {
+  direction: rtl;
+}
+
+.default-layout {
+  overflow: hidden;
+}
+
+.hidden,
+.animated {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.visible {
+  visibility: visible;
+}
+
+::placeholder {
+  color: rgba($color: $color_b, $alpha: 0.26);
+}
+
+@import "pages/index";
+@import "pages/credits";
+
+@import "components/header-app";
+@import "components/footer-app";
+@import "components/elements/list-items";
+@import "components/nav-user";
+@import "components/loading/full-loading";
+@import "components/loading/small-loading";
+@import "components/prefs-btns";
+@import "lang/en";
+@import "lang/ar";
+
+@import "res/pages/index";
+@import "res/pages/credits.scss";
+@import "res/components/header-app";
+
+@import "ltr/index";
+@import "res/lang/en";
+@import "themes/dark";

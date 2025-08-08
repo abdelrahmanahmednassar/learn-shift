@@ -1,0 +1,13 @@
+.header-app {
+  .buttons {
+    a {
+      &.login {
+        color: $color_b;
+      }
+    }
+
+    .btn-show-list-mobile {
+      color: $color_a;
+    }
+  }
+}

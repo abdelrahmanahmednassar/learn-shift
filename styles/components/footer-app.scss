@@ -1,0 +1,80 @@
+@media (max-width: 768px) {
+  .footer-app {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    .footer-content {
+      padding: 18px 0 8px 0 !important;
+    }
+    .logo {
+      width: 48px !important;
+    }
+    .social {
+      margin: 8px 0 0 0 !important;
+    }
+  }
+}
+
+.footer-app {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  min-height: 80px;
+  background: none;
+  .footer-content {
+    text-align: center;
+    padding: 24px 32px 12px 32px;
+  }
+  .logo {
+    width: 56px;
+    margin-bottom: 10px;
+  }
+  .social {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    li {
+      display: inline-block;
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        transition: transform 0.2s, box-shadow 0.2s;
+        font-size: 24px;
+        color: #fff;
+        background: #eee;
+        text-decoration: none;
+      }
+      a[aria-label="WhatsApp"] {
+        background: linear-gradient(135deg, #25d366 60%, #128c7e 100%);
+        box-shadow: 0 2px 8px rgba(37, 211, 102, 0.12);
+      }
+      a[aria-label="Facebook"] {
+        background: linear-gradient(135deg, #1877f3 60%, #0056b3 100%);
+        box-shadow: 0 2px 8px rgba(24, 119, 243, 0.12);
+      }
+      a[aria-label="LinkedIn"] {
+        background: linear-gradient(135deg, #0077b5 60%, #005983 100%);
+        box-shadow: 0 2px 8px rgba(0, 119, 181, 0.12);
+      }
+      a:hover {
+        transform: scale(1.12);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
+      }
+      i {
+        color: #fff;
+        font-size: 24px;
+      }
+    }
+  }
+  .footer-copyright {
+    color: #888;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}

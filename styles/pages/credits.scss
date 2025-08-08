@@ -1,0 +1,106 @@
+.credits-page {
+    .content {
+        padding: 20px;
+        max-width: 50vw;
+      
+        margin:20px auto;
+        background-color: rgba($color: $color_a, $alpha: 0.2);
+        border-radius: 24px;
+        
+
+        h1 {
+            color: $color_a;
+            font-size: 40px;
+        }
+        h2 {
+            color: $color_a;
+        }
+        
+        p {
+            color: $color_b;
+        }
+        .boxs-license {
+            direction: ltr;
+            position: relative;
+
+            .container-boxs {
+              word-break: break-word;
+              max-height: 1000px;
+              overflow-y: auto;
+              padding: 0 5px;
+              position: relative;
+              padding-bottom: 100px;
+             
+  
+  
+             
+               > div {
+           
+                  background-color: $color_a;
+                  color: $color_white_a;
+                  padding: 20px;
+                  border-radius: 25px;
+                  margin-top: 10px;
+  
+                  &.show {
+                    .hiddin-content {
+                      max-height: 250px;
+  
+                    
+                    }
+  
+                    .visible-content {
+                      i {
+                        transform: rotateZ(180deg);
+                      }
+                    }
+                  }
+  
+                  .hiddin-content {
+                    transition: 0.3s;
+                    // height: 0px;
+                    max-height : 0px;
+                    overflow: hidden;
+                  }
+  
+                  .visible-content {
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: space-between;
+                    > *{
+                      vertical-align: middle;
+                    }
+                    h3 {
+                      font-size: 25px;
+                      display: inline-block;
+                     
+                    }
+                    i {
+                      display: block;
+                      height: fit-content;
+                      transition: 0.3s;
+                      font-size: 30px;
+                    }
+                  }
+      
+    
+  
+                }
+           
+              .licenseText {
+                white-space: break-spaces;
+                max-height: 200px;
+                overflow: auto;
+               
+                padding: 0 2px;
+              }
+    
+            }
+  
+  
+  
+  
+  
+          }
+    }
+}

@@ -1,0 +1,24 @@
+.credits-page {
+  .content {
+    background-color: rgba($color: $color_a, $alpha: 0.2);
+
+    h1 {
+      color: $color_a;
+    }
+    h2 {
+      color: $color_a;
+    }
+
+    p {
+      color: $color_b;
+  }
+    .boxs-license {
+      .container-boxs {
+        > div {
+          background-color: $color_a;
+          color: $color_white_a;
+        }
+      }
+    }
+  }
+}

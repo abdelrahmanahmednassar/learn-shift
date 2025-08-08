@@ -1,0 +1,295 @@
+@media (max-width: 1199px) {
+  .index-page {
+    .first-sect {
+      .left {
+        .pattern {
+          left: 16%;
+        }
+      }
+
+      .right {
+        .title {
+          .word {
+            bottom: -30%;
+          }
+          .arrow {
+            width: 123px;
+            left: 54%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .index-page {
+    .first-sect {
+      .left {
+        .image {
+          margin: 0 auto;
+          margin-top: 120px;
+
+          .pattern {
+            left: 50%;
+          }
+        }
+      }
+
+      .right {
+        .title {
+          .word {
+            bottom: -9%;
+            left: 14%;
+          }
+          .arrow {
+            width: auto;
+            left: 35%;
+          }
+        }
+      }
+    }
+
+    .features {
+      .row {
+        > .order {
+          order: 1;
+        }
+      }
+      > div {
+        .image {
+          margin: 0 auto;
+          margin-top: 170px;
+        }
+      }
+    }
+
+    .other-features {
+      margin-top: 288px;
+    }
+    .register-now .at {
+      width: 300px;
+    }
+
+    .pricing-section {
+      .pricing-cards {
+        gap: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .index-page {
+    .first-sect {
+      .right {
+        text-align: center;
+
+        .title {
+          h1 {
+            text-align: center;
+            margin-bottom: 150px;
+          }
+          .word {
+            left: 0%;
+            bottom: -40%;
+          }
+          .arrow {
+            left: 35%;
+            bottom: -70%;
+          }
+        }
+
+        p {
+          text-align: center;
+        }
+
+        .buttons {
+          text-align: center;
+
+          .register {
+            display: inline-block;
+          }
+        }
+      }
+    }
+    .features {
+      .star-img {
+        top: 60%;
+        left: 20%;
+      }
+      > div {
+        .text {
+          width: 100%;
+        }
+      }
+    }
+    .other-features {
+      .image {
+        .start-medal {
+          width: 270px;
+        }
+      }
+    }
+
+    .pricing-section {
+      .section-header {
+        .title {
+          font-size: 35px;
+        }
+      }
+
+      .pricing-cards {
+        .pricing-card {
+          padding: 30px 20px;
+
+          .card-header {
+            .package-name {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .other-features {
+      .image {
+        .box-feat {
+          position: relative;
+          left: 0 !important;
+          top: 0 !important;
+          width: 100% !important;
+          right: 0 !important;
+          margin-top: 11px;
+          text-align: right;
+          padding-right: 27px;
+        }
+      }
+    }
+
+    .register-now .at {
+      width: 248px;
+      // top: -394px;
+      left: -131px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .index-page {
+    .first-sect {
+      .right {
+        text-align: center;
+
+        .title {
+          h1 {
+            text-align: center;
+            margin-bottom: 150px;
+          }
+          .word {
+            left: 10%;
+            bottom: -70%;
+          }
+          .arrow {
+            left: 50%;
+            bottom: -110%;
+          }
+        }
+        p {
+          margin-top: 16px;
+          text-align: center;
+        }
+
+        .buttons {
+          text-align: center;
+
+          .register {
+            display: inline-block;
+          }
+        }
+      }
+
+      .left {
+        .image {
+          scale: 0.8;
+        }
+      }
+
+      p {
+        margin-top: 22px;
+      }
+    }
+
+    .features {
+      > div {
+        .image {
+          scale: 0.7;
+        }
+      }
+
+      .star-img {
+        top: 65%;
+        left: 20%;
+      }
+
+      .done-img {
+        top: 72%;
+        left: 100%;
+      }
+    }
+    .register-now {
+      .at {
+        top: -101px;
+        left: -36px;
+        width: 200px;
+      }
+
+      .body {
+        margin: 10px;
+        margin-top: 193px;
+      }
+    }
+  }
+}
+@media (max-width: 420px) {
+  .index-page {
+    .first-sect {
+      .left {
+        .image {
+          width: 167px;
+
+          .rocket {
+            left: -200px;
+          }
+
+          .pattern {
+            left: 111%;
+          }
+
+          .mobile {
+            left: -152px;
+          }
+        }
+      }
+    }
+
+    .features {
+      > div {
+        .image {
+          scale: 0.6;
+        }
+      }
+    }
+
+    .qa-section {
+      .qa-container {
+        .qa-item {
+          .qa-question {
+            h3 {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

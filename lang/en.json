@@ -1,0 +1,207 @@
+{
+  "pages": {
+    "index": {
+      "firstSect": {
+        "title": "Teaching Isn't Like Before... Your Platform",
+        "smallWord": "Learn Shift! 🚀",
+        "comment": "Learn Shift is not just an educational platform, but your partner in organizing the entire teaching process — plan your lessons, deliver them online easily, engage with your students, and track their progress in real-time. All through a system designed specifically for teachers who want to provide better education and save their time.",
+        "buttons": {
+          "signup": "Start Now!",
+          "dashboard": "Dashboard",
+          "example": "Example"
+        }
+      },
+      "features": {
+        "security": {
+          "title": "Advanced Video Protection",
+          "comment": "Protect your educational content with the latest security technologies: full video encryption, automatic watermarks with the student's name, prevention of unauthorized downloading and copying, and the ability to limit the number of allowed devices per student."
+        },
+        "analytics": {
+          "title": "Comprehensive Analytics & Reports",
+          "comment": "Track your students' performance and platform activity through clear dashboards. See view counts, completion rates, and peak times… to continuously improve your content.",
+          "eval": ["Excellent", "Very Good", "Good", "Bad", "Very Bad"]
+        },
+        "help": {
+          "title": "With You Every Step",
+          "comment": "Not just programming — we are a complete team to support you: marketing and advertising services to reach more students, technical support to solve any problem quickly, and consultations to improve your online teaching experience."
+        },
+        "multi": {
+          "title": "All-in-One Educational Platform",
+          "comment": "Your platform is ready for online teaching — from uploading courses, files, and exams, and organizing content, to tracking students, managing finances, linking with your learning center, and analyzing data, with multiple payment systems available… all integrated and easy to use.",
+          "image": [
+            {
+              "title": "First Month Course",
+              "date": "(8 days)"
+            },
+            {
+              "title": "Exam Night Review",
+              "date": "(20 days)"
+            },
+            {
+              "title": "Second Term Package",
+              "date": "(3 days)"
+            }
+          ]
+        }
+      },
+      "otherFeat": {
+        "title": "Other Features",
+        "elements": [
+          "Link learning center students to the platform",
+          "Parent follow-up via WhatsApp",
+          "Professional dashboard",
+          "Create and sell question banks",
+          "Automatic exam grading",
+          "Multi-teacher subscription on the same platform",
+          "Payment facilities and installment system",
+          "Free technical support",
+          "Automatic payment via Fawry and Vodafone Cash"
+        ]
+      },
+      "register": {
+        "title": "Start Now",
+        "comment": "Start learning the skills you’ve always wanted to master, or set tasks you want to accomplish… Let’s go."
+      },
+      "qa": {
+        "title": "Frequently Asked Questions",
+        "questions": [
+          {
+            "question": "How can I start with LearnShift?",
+            "answer": "You can start by clicking the \"Start Your Platform Now\" button anywhere on the site, or contact us directly via WhatsApp or phone. Our team will help you choose the right plan and we’ll start setting up your platform immediately. The process is simple and fast, and we’ll be with you every step of the way."
+          },
+          {
+            "question": "What payment methods are available?",
+            "answer": "We support Vodafone Cash, Fawry, in addition to bank transfers. We also provide payment facilities where you pay 30% upfront and the rest in easy installments. Our goal is to make the service accessible to every teacher who wants to grow their work."
+          },
+          {
+            "question": "Is technical support available?",
+            "answer": "Yes, we provide free technical support throughout the year for all our clients. Our support team is available 24/7 to assist you with any technical issue or inquiry. We also provide comprehensive initial support, including training, content setup, and marketing advice."
+          },
+          {
+            "question": "Can I upgrade my plan later?",
+            "answer": "Absolutely! You can upgrade your plan anytime according to your growing needs. The system is flexible and designed to grow with you. Upon upgrading, you’ll get all the new features instantly, and you’ll only pay the price difference with a discount for the remaining period."
+          },
+          {
+            "question": "How do you protect my content from theft?",
+            "answer": "We use the latest protection technologies: full video encryption, prevention of downloading and sharing, automatic watermarks, device limits per student, and protection against inspection tools. Your content will be 100% secure with the ability to track any attempted violation."
+          },
+          {
+            "question": "How long does it take for the platform to be ready?",
+            "answer": "Usually, the platform is ready within 5–7 business days from order confirmation. We’ll need your basic content (logo, text content, videos) and we’ll handle the rest. If you already have the content ready, we can finish even faster."
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Pricing Plans",
+        "subtitle": "Choose the plan that fits your needs",
+        "packages": [
+          {
+            "name": "Basic Level",
+            "description": "Perfect for teachers who want to start quickly and simply",
+            "features": [
+              "Professional showcase website",
+              "Separate dashboard",
+              "Secure registration system",
+              "Course and content management",
+              "Smart exam system",
+              "Code-based sales"
+            ],
+            "button": "Start Now",
+            "popular": false
+          },
+          {
+            "name": "Advanced Level",
+            "description": "Includes all basic features +",
+            "features": [
+              "Advanced video protection",
+              "Automatic Vodafone Cash payment",
+              "Online homework submission",
+              "Student tracking dashboard",
+              "Add assistants"
+            ],
+            "button": "Choose Advanced",
+            "popular": false
+          },
+          {
+            "name": "Professional Level",
+            "description": "Includes all previous features +",
+            "features": [
+              "Learning center student integration",
+              "Comprehensive real-time analytics",
+              "Automatic Fawry payment",
+              "Financial operations management",
+              "Sell question banks"
+            ],
+            "button": "Choose Professional",
+            "popular": true
+          },
+          {
+            "name": "Ultimate System",
+            "description": "The most comprehensive system",
+            "features": [
+              "Parent monitoring",
+              "Ultimate content protection",
+              "Advanced anti-cheating exams",
+              "Full control over courses and students",
+              "Exclusive advanced features"
+            ],
+            "button": "Choose Ultimate",
+            "popular": false
+          }
+        ]
+      }
+    },
+    "credits": {
+      "thanks": "Thank you",
+      "desc": "This website uses many libraries and elements",
+      "fonts": "Fonts",
+      "ossLibs": "Open Source Libraries"
+    }
+  },
+  "components": {
+    "footerApp": {
+      "abdelrahman": ["Developed by", "abdelrahman.repo"],
+      "about": {
+        "text": "Learn Shift is not just an educational platform, but your partner in organizing the entire teaching process — plan your lessons, deliver them online easily, engage with your students, and track their progress in real-time. All through a system designed specifically for teachers who want to provide better education and save their time.",
+        "from": "One of the products"
+      },
+      "pages": {
+        "title": "Pages",
+        "signup": "Sign Up",
+        "login": "Login",
+        "dashboard": "Dashboard",
+        "createAccount": "Create Account",
+        "createCourse": "Create New Course"
+      },
+      "imp": {
+        "title": "Important",
+        "pp": "Privacy Policy",
+        "tc": "Terms and Conditions",
+        "credits": "Credits"
+      },
+      "plat": {
+        "title": "Juzr",
+        "website": "Website",
+        "apps": "Products"
+      }
+    },
+    "headerApp": {
+      "buttons": {
+        "login": "Login",
+        "signup": "Start Now!"
+      }
+    },
+    "navUser": {
+      "logout": "There are offline changes you made. Logging out will not sync the data. Please connect to the internet and then log out again. Do you want to log out anyway?",
+      "list": {
+        "profile": "Profile",
+        "dashboard": "Dashboard",
+        "myAccount": "My Account",
+        "logout": "Logout"
+      }
+    }
+  },
+  "config": {
+    "title": "LearnShift - Next Generation Learning Platform"
+  }
+}

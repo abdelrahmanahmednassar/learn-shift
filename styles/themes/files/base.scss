@@ -1,0 +1,35 @@
+.label-div__inputText-button {
+  div {
+    background-color: $color_white_a;
+    button {
+      @extend .main-btn;
+      background-color: $color_b !important;
+    }
+    input {
+      background-color: $color_white_a;
+      &::placeholder {
+        color: $color_dark_a;
+      }
+    }
+  }
+}
+
+.btn-circular {
+  background-color: $color_a;
+  color: $color_white_a;
+}
+
+.main-btn {
+  background-color: $color_a;
+  color: $color_white_a;
+}
+
+.second-btn {
+  color: $color_b;
+  border: 1px solid $color_b;
+}
+
+.btn-square-smal {
+  background-color: $color_a_lite;
+  color: $color_a;
+}
