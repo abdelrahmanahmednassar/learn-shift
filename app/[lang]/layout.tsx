@@ -7,26 +7,20 @@ export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "ar" }];
 }
 
-import { notFound } from "next/navigation";
-
 export default async function LangLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: { lang: string };
+  params: Promise<{ lang: "en" | "ar" }>;
 }) {
-  const { lang } = params;
-  const supportedLangs = ["en", "ar"];
-  if (!supportedLangs.includes(lang)) {
-    notFound();
-  }
-  const dict = await getDictionary(lang as "en" | "ar");
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
   const isLtr = ["en"].find((l) => l == lang);
 
   return (
     <div className={`default-layout ${lang} ${isLtr && "ltr"}`}>
-      <TranslationProvider dictionary={dict} lang={lang as "en" | "ar"}>
+      <TranslationProvider dictionary={dict} lang={lang}>
         <HeaderApp />
         {children}
         <FooterApp />
