@@ -4,12 +4,14 @@
       .first-sect {
         .right {
           .title {
+            margin-bottom: 100px;
             .word {
-              right: 20%;
-              bottom: -4%;
+              right: 0%;
+              bottom: -35%;
             }
             .arrow {
-              bottom: -17%;
+              right: 45%;
+              bottom: -55%;
               width: 162px;
             }
           }
@@ -25,13 +27,14 @@
       .first-sect {
         .right {
           .title {
+            margin-bottom: 100px;
             .word {
-              right: -8%;
+              right: 10%;
               bottom: -13%;
             }
             .arrow {
-              bottom: -33%;
-              right: 16%;
+              bottom: -50%;
+              right: 40%;
             }
           }
         }
@@ -48,10 +51,10 @@
           .title {
             .word {
               right: 24%;
-              bottom: -4%;
+              bottom: -40%;
             }
             .arrow {
-              bottom: -15%;
+              bottom: -70%;
               right: 47%;
             }
           }
@@ -67,6 +70,15 @@
       .first-sect {
         .right {
           .title {
+            margin-bottom: 30px;
+            .arrow {
+              bottom: -75%;
+              right: 40%;
+            }
+            .word {
+              bottom: -45%;
+              right: 10%;
+            }
             h1 {
               font-size: 12vw;
             }
@@ -77,12 +89,21 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 420px) {
   .en {
     .index-page {
       .first-sect {
         .right {
-          .buttons {
+          .title {
+            margin-bottom: 30px;
+            .arrow {
+              bottom: -110%;
+              right: 40%;
+            }
+            .word {
+              bottom: -60%;
+              right: -5%;
+            }
             a {
               width: 100%;
               display: block;
