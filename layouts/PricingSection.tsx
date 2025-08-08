@@ -20,7 +20,7 @@ export default function PricingSection() {
               key={index}
               className={`pricing-card${pkg.popular ? " popular" : ""}`}
             >
-              {pkg.popular && <div className="popular-badge">الأكثر شعبية</div>}
+              {pkg.popular && <div className="popular-badge">{t.pages.index.pricing.popular}</div>}
 
               <div className="card-header">
                 <h3 className="package-name">{pkg.name}</h3>

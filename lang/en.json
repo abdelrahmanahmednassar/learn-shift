@@ -2,8 +2,8 @@
   "pages": {
     "index": {
       "firstSect": {
-        "title": "Teaching Isn't Like Before... Your Platform",
-        "smallWord": "Learn Shift! 🚀",
+        "title": "Teaching Isn't Like Before...",
+        "smallWord": "Learn Shift🚀",
         "comment": "Learn Shift is not just an educational platform, but your partner in organizing the entire teaching process — plan your lessons, deliver them online easily, engage with your students, and track their progress in real-time. All through a system designed specifically for teachers who want to provide better education and save their time.",
         "buttons": {
           "signup": "Start Now!",
@@ -94,6 +94,7 @@
       "pricing": {
         "title": "Pricing Plans",
         "subtitle": "Choose the plan that fits your needs",
+        "popular": "Most Popular",
         "packages": [
           {
             "name": "Basic Level",
