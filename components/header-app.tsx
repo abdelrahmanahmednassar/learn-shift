@@ -22,7 +22,7 @@ const HeaderApp: React.FC = () => {
 
         <div className="buttons">
           <Link
-            href="https://wa.me/01003685999"
+            href="https://wa.me/+201003685999"
             target="_blank"
             className="register"
           >

@@ -39,7 +39,7 @@ export default function PricingSection() {
               </div>
 
               <div className="card-footer">
-                <Link href="https://wa.me/01003685977" className="main-btn">
+                <Link href="https://wa.me/+201003685977" className="main-btn">
                   {pkg.button}
                 </Link>
               </div>

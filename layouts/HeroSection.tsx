@@ -47,7 +47,7 @@ export default function HeroSection() {
             data-next-anime
           >
             <Link
-              href="https://wa.me/01003685999"
+              href="https://wa.me/+201003685999"
               target="_blank"
               className="register"
             >

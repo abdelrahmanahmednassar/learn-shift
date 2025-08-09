@@ -35,7 +35,7 @@ export default function CTASection() {
             </p>
 
             <Link
-              href="https://wa.me/01003685977"
+              href="https://wa.me/+201003685977"
               className="animated main-btn"
               data-anime-name="right-in"
               data-next-anime

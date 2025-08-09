@@ -23,6 +23,7 @@
   }
 }
 @media (max-width: 991px) {
+  
   .index-page {
     .first-sect {
       .left {
@@ -51,6 +52,11 @@
     }
 
     .features {
+      .star-img:not(.done-img) {
+        top: 88%;
+        left: 20%;
+      }
+    
       .row {
         > .order {
           order: 1;
@@ -114,9 +120,9 @@
       }
     }
     .features {
-      .star-img {
-        top: 60%;
-        left: 20%;
+      .star-img:not(.done-img) {
+        top: 90%;
+        left: 10%;
       }
       > div {
         .text {
@@ -227,15 +233,11 @@
         }
       }
 
-      .star-img {
-        top: 65%;
-        left: 20%;
+      .star-img:not(.done-img) {
+        top: 90%;
+        left: 30%;
       }
 
-      .done-img {
-        top: 72%;
-        left: 100%;
-      }
     }
     .register-now {
       .at {

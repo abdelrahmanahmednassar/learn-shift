@@ -131,6 +131,7 @@ export default function FeaturesSection() {
 
       <div
         className="star-img animated"
+        id="star-img"
         data-anime-name="bottom-in"
         anime-before="120"
       >
@@ -480,6 +481,7 @@ export default function FeaturesSection() {
       </div>
       <div
         className="done-img animated"
+        id="done-img"
         data-anime-name="bottom-in"
         data-anime-before="120"
       >

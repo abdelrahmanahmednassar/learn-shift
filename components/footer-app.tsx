@@ -12,11 +12,11 @@ const FooterApp: React.FC = () => {
     <footer className="footer-app">
       <div className="container">
         <div className="footer-content">
-          <img className="logo" src="/assets/images/logo.svg" alt="Logo" />
+          <img className="logo" src="/assets/images/full-logo.png" alt="Logo" />
           <ul className="social modern-icons">
             <li>
               <Link
-                href="https://wa.me/01003685977"
+                href="https://wa.me/+201003685977"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp"
