@@ -6,6 +6,7 @@ import "remixicon/fonts/remixicon.css";
 import "bootstrap/dist/css/bootstrap-grid.min.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://learnshift.vercel.app"),
   title:
     "LearnShift - منصة تعليمية للمدرسين | تنظيم الدروس، حماية الفيديوهات، تحليلات، دعم فني، دفع إلكتروني",
   description:
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   keywords: [
     // Arabic
     "ليرن شيفت",
-    "منصة ليرن شيفت", 
+    "منصة ليرن شيفت",
     "ليرن شيفت",
     "منصة ليرن شيفت",
     "ليرن شيفت",
@@ -71,7 +72,7 @@ export const metadata: Metadata = {
     title: "Learn Shift | Next Generation Learning",
     description: "التدريس مش زي زمان ... منصتك مع Learn Shift",
     type: "website",
-    url: "https://learnshift.netlify.app",
+    url: "https://learnshift.vercel.app",
   },
 };
 
@@ -83,8 +84,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-
-        <meta name="google-site-verification" content="BGarRjKuuYRF3eEfLkREhccIoiCsy8RuSQPF8xPm19Q" />
+        <meta
+          name="google-site-verification"
+          content="BGarRjKuuYRF3eEfLkREhccIoiCsy8RuSQPF8xPm19Q"
+        />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap"

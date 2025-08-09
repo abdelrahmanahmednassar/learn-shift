@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     title: "Learn Shift | Next Generation Learning",
     description: "التدريس مش زي زمان ... منصتك مع Learn Shift",
     type: "website",
-    url: "https://learnshift.netlify.app",
+    url: "https://learnshift.vercel.app",
   },
 };
 

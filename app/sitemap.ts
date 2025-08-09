@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://learnshift.netlify.app";
+const BASE_URL = "https://learnshift.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
