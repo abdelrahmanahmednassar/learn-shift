@@ -68,8 +68,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     siteName: "Learn Shift",
-    title: "Learn Shift",
-    description: "منصة تعليمية للمدرسين",
+    title: "Learn Shift | Next Generation Learning",
+    description: "التدريس مش زي زمان ... منصتك مع Learn Shift",
     type: "website",
     url: "https://learnshift.netlify.app",
   },
