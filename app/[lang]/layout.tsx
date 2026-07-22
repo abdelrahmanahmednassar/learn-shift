@@ -8,16 +8,14 @@ export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "ar" }];
 }
 
-
 export const metadata: Metadata = {
-  title:
-    "LearnShift",
+  title: "LearnShift",
   description:
     "Learn Shift مش بس منصة تعليمية، ولكن شريكك في تنظيم العملية التعليمية بالكامل — خطط دروسك، قدمها أونلاين بسهولة، تفاعل مع طلابك، وتابع تقدمهم لحظة بلحظة. كل ده من خلال نظام مصمم خصيصًا للمدرسين اللي عايزين يقدّموا تعليم أفضل ويوفروا وقتهم.",
   keywords: [
     // Arabic
     "ليرن شيفت",
-    "منصة ليرن شيفت", 
+    "منصة ليرن شيفت",
     "ليرن شيفت",
     "منصة ليرن شيفت",
     "ليرن شيفت",
