@@ -84,15 +84,16 @@ export default async function LangLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ lang: "en" | "ar" }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
-  const isLtr = ["en"].find((l) => l == lang);
+  const locale = lang === "ar" || lang === "en" ? lang : "en";
+  const dict = await getDictionary(locale);
+  const isLtr = locale === "en";
 
   return (
-    <div className={`default-layout ${lang} ${isLtr && "ltr"}`}>
-      <TranslationProvider dictionary={dict} lang={lang}>
+    <div className={`default-layout ${locale} ${isLtr && "ltr"}`}>
+      <TranslationProvider dictionary={dict} lang={locale}>
         <HeaderApp />
         {children}
         <FooterApp />
